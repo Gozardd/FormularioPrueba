@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de el Formulario">
+            <h2 class="nombre">Redes Sociales Del Creador</h2>
+        </div>
+        <nav>
+            <ul style="list-style-type: none;">
+                <li><a href="https://www.instagram.com/molinahenyer/" class="link1">Intagram</a></li>
+                <li><a href="https://www.youtube.com/@HenyerMolina/videos" class="link2">Youtube</a></li>
+                <li><a href="https://www.tiktok.com/@henyermolina" class="link3">TikTok</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="formulario">
+        <h1 class="titulo">Formulario</h1>
+        <form>
+            <p class="nombret">Nombre:</p>
+            <input type="text" class="nombrei" required>
+            <p class="correot">Correo Electronico:</p>
+            <input type="email" class="correoi" required>
+            <p class="edadt">Edad:</p>
+            <input type="number" class="edadi" required>
+            <p class="especialidadt">Especialidad:</p>
+            <select name="tipo" class="especialidadi" required>
+                <option value="frontend">Frontend</option>
+                <option value="backend">Backend</option>
+                <option value="full-stack">Full-stack</option>
+            </select>
+            <p class="insertat">Inserta una Imagen:</p>
+            <input type="file" name="foto" class="insertai" required>
+            <p class="descripciont">Descripción:</p>
+            <input type="text" class="descripcioni" required>
+            <p class="hobbiest">Selecciona tus Hobbies:</p>
+            <select class="hobbiesi" multiple name="Hobbies">
+                <option value="Jugar VideoJuegos">VideoJuegos</option>
+                <option value="Entrenar Algun Deporte">Entrenar Algun Deporte</option>
+                <option value="Cantar/Tocar Algun Instrumento">Cantar/Tocar Algun Instrumento</option>
+            </select>
+            <input type="submit" class="enviar" required>
+        </form>
+    </div>
+    <footer>
+        <p>Copyright © 2023 [Henyer Molina]</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,207 @@
+*{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    position: absolute;
+    color: black;
+}
+nav a:hover{
+    color: #2cae10; 
+}
+
+header, .formulario {
+    margin-top: 0;
+    display: flex;
+}
+
+header{
+    display: flex;
+    height: 5em;
+    justify-content: space-between;
+    background: linear-gradient(325deg, #deef28 0, #c6ef29 10%, #abef2d 20%, #8ded35 30%, #68eb3e 40%, #2be848 50%, #00e454 60%, #00e162 70%, #00dd71 80%, #00da81 90%, #00d692 100%);;
+    align-items: center;
+    padding: 2em;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 4em;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.link1{
+    left: 60em;
+    font-weight: 600;
+}
+
+.link2{
+    left: 65em;
+    font-weight: 600;
+}
+
+.link3{
+    left: 70em;
+    font-weight: 600;
+}
+
+footer{
+    background: linear-gradient(325deg, #66eb3e 0, #4eea43 25%, #2be848 50%, #00e64d 75%, #00e553 100%);;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.formulario{
+    background: linear-gradient(155deg, #ffeb7d 0, #ffef71 5.56%, #fff265 11.11%, #fff45b 16.67%, #fff652 22.22%, #f8f74b 27.78%, #dff647 33.33%, #c2f545 38.89%, #a2f347 44.44%, #7cef4b 50%, #48eb53 55.56%, #00e75e 61.11%, #00e36d 66.67%, #00df7d 72.22%, #00dc8f 77.78%, #00d8a2 83.33%, #00d5b6 88.89%, #00d3cb 94.44%, #00d1e1 100%);
+    padding-bottom: 28em;
+}
+
+.titulo{
+    position: absolute;
+    top: 2em;
+    left: 18em;
+}
+
+.nombret{
+    position: absolute;
+    top: 9em;
+    left: 20em;
+}
+
+.nombrei{
+    position: absolute;
+    top: 9em;
+    left: 26em;
+    border-radius: 1em;
+    border: none;
+}
+
+.nombrei:hover{
+    background: linear-gradient(270deg, #2cae10 0, #2cae10 50%, #2cae10 100%);
+}
+
+.correot{
+    position: absolute;
+    top: 9em;
+    left: 40em;
+}
+
+.correoi{
+    position: absolute;
+    top: 9em;
+    left: 49em;
+    border-radius: 1em;
+    border: none;
+}
+
+.correoi:hover{
+    background: linear-gradient(270deg, #2cae10 0, #2cae10 50%, #2cae10 100%);
+}
+
+.edadt{
+    position: absolute;
+    top: 12em;
+    left: 20em;
+}
+
+.edadi{
+    position: absolute;
+    top: 12em;
+    left: 26em;
+    border-radius: 1em;
+    border: none;
+}
+
+.edadi:hover{
+    background: linear-gradient(270deg, #2cae10 0, #2cae10 50%, #2cae10 100%);
+}
+
+.especialidadt{
+    position: absolute;
+    top: 12em;
+    left: 40em;
+}
+
+.especialidadi{
+    position: absolute;
+    top: 12em;
+    left: 52em;
+    border-radius: 1em;
+    border: none;
+    background: white;
+}
+
+.especialidadi:hover{
+    background: linear-gradient(270deg, #2cae10 0, #2cae10 50%, #2cae10 100%);
+}
+
+.descripciont{
+    position: absolute;
+    top: 15em;
+    left: 20em;
+}
+
+.descripcioni{
+    position: absolute;
+    top: 15em;
+    left: 26em;
+    border-radius: 1em;
+    border: none;
+}
+
+.descripcioni:hover{
+    background: linear-gradient(270deg, #2cae10 0, #2cae10 50%, #2cae10 100%);
+}
+
+.insertat{
+    position: absolute;
+    top:15em;
+    left: 40em;
+}
+
+.insertai{
+    position: absolute;
+    top:15em;
+    left: 52em;
+    border-radius: .5em;
+    border: none;
+}
+
+.hobbiest{
+    position: absolute;
+    top:18em;
+    left: 26em;
+}
+
+.hobbiesi{
+    position: absolute;
+    top:18em;
+    left: 40em;
+    border-radius: .5em;
+    border: none;
+}
+
+.hobbiesi:hover{
+    background: linear-gradient(270deg, #2cae10 0, #2cae10 50%, #2cae10 100%);
+}
+
+.enviar{
+    position: absolute;
+    top: 28em;
+    left: 38em;
+    border-radius: 1em;
+    border: none;
+    background: white;
+}
+
+.enviar:hover{
+    background: linear-gradient(270deg, #2cae10 0, #2cae10 50%, #2cae10 100%);
+}
+
+
