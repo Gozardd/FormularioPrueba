@@ -9,6 +9,7 @@ a{
 }
 nav a:hover{
     color: #13ef81;
+    transform: scale(110%);
 }
 
 header, .formulario {
@@ -88,12 +89,12 @@ footer{
     border-color: #069e52;
     border-radius: .3em;
     color: #808080;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .nombrei:hover{
     background:  #00313f;
-    height: 2em;
+    transform: scale(110%);
 }
 
 .correot{
@@ -110,11 +111,11 @@ footer{
     border-color: #069e52;
     border-radius: .3em;
     color: #808080;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .correoi:hover{
-    height: 2em;
+    transform: scale(110%);
     background:  #00313f;
 }
 
@@ -132,12 +133,12 @@ footer{
     border-color: #069e52;
     border-radius: .3em;
     color: #808080;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .edadi:hover{
     background:  #00313f;
-    height: 2em;
+    transform: scale(110%);
 }
 
 .especialidadt{
@@ -150,18 +151,19 @@ footer{
 .especialidadi{
     position: absolute;
     top: 12em;
-    left: 52em;
+    left: 49em;
     border-color: #069e52;
     background: white;
     color: #808080;
     border-radius: .3em;
     color: #808080;
-    transition: all 1s;
+    width: 12.3em;
+    transition: all .5s;
 }
 
 .especialidadi:hover{
     background:  #00313f;
-    height: 2em;
+    transform: scale(110%);
 }
 
 .descripciont{
@@ -178,12 +180,12 @@ footer{
     border-color: #069e52;
     border-radius: .3em;
     color: #808080;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .descripcioni:hover{
     background:  #00313f;
-    height: 2em;
+    transform: scale(110%);
 }
 
 .insertat{
@@ -218,12 +220,12 @@ footer{
     color: #808080;
     border-radius: .3em;
     color: #808080;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .hobbiesi:hover{
     background:  #00313f;
-    height: 6em;
+    transform: scale(110%);
 }
 
 .enviar{
@@ -234,7 +236,7 @@ footer{
     background: white;
     color: #808080;
     border-radius: .3em;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .enviar:hover{
@@ -302,20 +304,20 @@ footer{
     .titulo{
         position: absolute;
         top: 2.5em;
-        left: 3em;
+        left: 3.5em;
     }
     
     .nombret{
         position: absolute;
         top: 10em;
-        left: .5em;
+        left: 1em;
         color: #808080;
     }
     
     .nombrei{
         position: absolute;
         top: 10em;
-        left: 9em;
+        left: 10em;
         border-color: #069e52;
         border-radius: .3em;
         color: #808080;
@@ -324,14 +326,14 @@ footer{
     .correot{
         position: absolute;
         top: 13em;
-        left: .5em;
+        left: 1em;
         color: #808080;
     }
     
     .correoi{
         position: absolute;
         top: 13em;
-        left: 9em;
+        left: 10em;
         border-color: #069e52;
         border-radius: .3em;
         color: #808080;
@@ -340,14 +342,14 @@ footer{
     .edadt{
         position: absolute;
         top: 16em;
-        left: .5em;
+        left: 1em;
         color: #808080;
     }
     
     .edadi{
         position: absolute;
         top: 16em;
-        left: 9em;
+        left: 10em;
         border-color: #069e52;
         border-radius: .3em;
         color: #808080;
@@ -356,14 +358,14 @@ footer{
     .especialidadt{
         position: absolute;
         top: 19em;
-        left: .5em;
+        left: 1em;
         color: #808080;
     }
     
     .especialidadi{
         position: absolute;
         top: 19em;
-        left: 9em;
+        left: 10em;
         border-color: #069e52;
         background: white;
         color: #808080;
@@ -374,14 +376,14 @@ footer{
     .descripciont{
         position: absolute;
         top: 22em;
-        left: .5em;
+        left: 1em;
         color: #808080;
     }
     
     .descripcioni{
         position: absolute;
         top: 22em;
-        left: 9em;
+        left: 10em;
         border-color: #069e52;
         border-radius: .3em;
         color: #808080;
@@ -390,14 +392,14 @@ footer{
     .insertat{
         position: absolute;
         top:25em;
-        left: .5em;
+        left: 1em;
         color: #808080;
     }
     
     .insertai{
         position: absolute;
         top:27em;
-        left: -.2em;
+        left: 1em;
         border-color: #069e52;
         color: #808080;
         border-radius: .3em;
@@ -407,14 +409,14 @@ footer{
     .hobbiest{
         position: absolute;
         top:30em;
-        left: .5em;
+        left: 1em;
         color: #808080;
     }
     
     .hobbiesi{
         position: absolute;
         top:32em;
-        left: 4em;
+        left: 6em;
         border-color: #069e52;
         color: #808080;
         border-radius: .3em;
@@ -424,7 +426,7 @@ footer{
     .enviar{
         position: absolute;
         top: 40em;
-        left: 7.8em;
+        left: 9em;
         border-color: #069e52;
         background: white;
         color: #808080;
