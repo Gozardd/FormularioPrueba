@@ -5,10 +5,10 @@
 a{
     text-decoration: none;
     position: absolute;
-    color: black;
+    color: #ffffff;
 }
 nav a:hover{
-    color: #13ef81;
+    color: #069e52;
     transform: scale(110%);
 }
 
@@ -21,10 +21,10 @@ header{
     display: flex;
     height: 5em;
     justify-content: space-between;
-    background: #053d49;
+    background: #002636;
     align-items: center;
     padding: 2em;
-    color: #808080;
+    color: #ffffff;
 }
 
 .logo{
@@ -33,7 +33,7 @@ header{
 }
 
 .logo img{
-    height: 8em;
+    height: 4em;
     align-items: center;
     margin-right: 1em;
 }
@@ -41,32 +41,32 @@ header{
 .link1{
     left: 60em;
     font-weight: 600;
-    color: #808080;
+    color: #ffffff;
 }
 
 .link2{
     left: 65em;
     font-weight: 600;
-    color: #808080;
+    color: #ffffff;
 }
 
 .link3{
     left: 70em;
     font-weight: 600;
-    color: #808080;
+    color: #ffffff;
 }
 
 footer{
-    background: #04272e;
+    background: #002636;
     padding-top: 2em;
     padding-bottom: 4em;
-    color: #808080;
+    color: #ffffff;
 }
 
 .formulario{
-    background: radial-gradient(circle at 77.92% 77.92%, #3c555b 0, #294952 25%, #0f3d48 50%, #00313f 75%, #002636 100%);
+    background: #002636;
     padding-bottom: 28em;
-    color: #808080;
+    color: #ffffff;
 }
 
 .titulo{
@@ -79,7 +79,7 @@ footer{
     position: absolute;
     top: 9em;
     left: 20em;
-    color: #808080;
+    color: #ffffff;
 }
 
 .nombrei{
@@ -88,12 +88,12 @@ footer{
     left: 26em;
     border-color: #069e52;
     border-radius: .3em;
-    color: #808080;
+    color: #ffffff;
     transition: all .5s;
 }
 
 .nombrei:hover{
-    background:  #00313f;
+    background:  #069e52;
     transform: scale(110%);
 }
 
@@ -101,7 +101,7 @@ footer{
     position: absolute;
     top: 9em;
     left: 40em;
-    color: #808080;
+    color: #ffffff;
 }
 
 .correoi{
@@ -110,20 +110,20 @@ footer{
     left: 49em;
     border-color: #069e52;
     border-radius: .3em;
-    color: #808080;
+    color: #ffffff;
     transition: all .5s;
 }
 
 .correoi:hover{
     transform: scale(110%);
-    background:  #00313f;
+    background:  #069e52;
 }
 
 .edadt{
     position: absolute;
     top: 12em;
     left: 20em;
-    color: #808080;
+    color: #ffffff;
 }
 
 .edadi{
@@ -132,12 +132,12 @@ footer{
     left: 26em;
     border-color: #069e52;
     border-radius: .3em;
-    color: #808080;
+    color: #ffffff;
     transition: all .5s;
 }
 
 .edadi:hover{
-    background:  #00313f;
+    background:  #069e52;
     transform: scale(110%);
 }
 
@@ -145,7 +145,7 @@ footer{
     position: absolute;
     top: 12em;
     left: 40em;
-    color: #808080;
+    color: #ffffff;
 }
 
 .especialidadi{
@@ -154,15 +154,14 @@ footer{
     left: 49em;
     border-color: #069e52;
     background: white;
-    color: #808080;
+    color: #ffffff;
     border-radius: .3em;
-    color: #808080;
     width: 12.3em;
     transition: all .5s;
 }
 
 .especialidadi:hover{
-    background:  #00313f;
+    background:  #069e52;
     transform: scale(110%);
 }
 
@@ -170,7 +169,7 @@ footer{
     position: absolute;
     top: 15em;
     left: 20em;
-    color: #808080;
+    color: #ffffff;
 }
 
 .descripcioni{
@@ -179,12 +178,12 @@ footer{
     left: 26em;
     border-color: #069e52;
     border-radius: .3em;
-    color: #808080;
+    color: #ffffff;
     transition: all .5s;
 }
 
 .descripcioni:hover{
-    background:  #00313f;
+    background:  #069e52;
     transform: scale(110%);
 }
 
@@ -192,7 +191,7 @@ footer{
     position: absolute;
     top:15em;
     left: 40em;
-    color: #808080;
+    color: #ffffff;
 }
 
 .insertai{
@@ -200,16 +199,15 @@ footer{
     top:15em;
     left: 52em;
     border-color: #069e52;
-    color: #808080;
+    color: #ffffff;
     border-radius: .3em;
-    color: #808080;
 }
 
 .hobbiest{
     position: absolute;
     top:18em;
     left: 26em;
-    color: #808080;
+    color: #ffffff;
 }
 
 .hobbiesi{
@@ -217,14 +215,13 @@ footer{
     top:18em;
     left: 40em;
     border-color: #069e52;
-    color: #808080;
+    color: #ffffff;
     border-radius: .3em;
-    color: #808080;
     transition: all .5s;
 }
 
 .hobbiesi:hover{
-    background:  #00313f;
+    background:  #069e52;
     transform: scale(110%);
 }
 
@@ -234,13 +231,14 @@ footer{
     left: 38em;
     border-color: #069e52;
     background: white;
-    color: #808080;
+    color: black;
     border-radius: .3em;
     transition: all .5s;
 }
 
 .enviar:hover{
-    background:  #00313f;
+    background:  #069e52;
+    transform: scale(110%);
 }
 
 @media only screen and (max-width: 500px){ 
@@ -249,10 +247,10 @@ footer{
         display: flex;
         height: 6em;
         justify-content: space-between;
-        background: #053d49;
+        background: #001b27;
         align-items: center;
         padding: .2em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .logo{
@@ -262,7 +260,7 @@ footer{
     }
     
     .logo img{
-        height: 6em;
+        height: 4em;
         align-items: center;
         margin-right: 0em;
     }
@@ -271,34 +269,34 @@ footer{
         left: 17em;
         top: 1em;
         font-weight: 600;
-        color: #808080;
+        color: #ffffff;
     }
     
     .link2{
         left: 17em;
         top: 2.5em;
         font-weight: 600;
-        color: #808080;
+        color: #ffffff;
     }
     
     .link3{
         left: 17em;
         top: 4em;
         font-weight: 600;
-        color: #808080;
+        color: #ffffff;
     }
     
     footer{
-        background: #04272e;
+        background: #001b27;
         padding-top: 4em;
         padding-bottom: 4em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .formulario{
-        background: radial-gradient(circle at 77.92% 77.92%, #3c555b 0, #294952 25%, #0f3d48 50%, #00313f 75%, #002636 100%);
+        background: #002636;
         padding-bottom: 40em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .titulo{
@@ -311,7 +309,7 @@ footer{
         position: absolute;
         top: 10em;
         left: 1em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .nombrei{
@@ -320,14 +318,14 @@ footer{
         left: 10em;
         border-color: #069e52;
         border-radius: .3em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .correot{
         position: absolute;
         top: 13em;
         left: 1em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .correoi{
@@ -336,14 +334,14 @@ footer{
         left: 10em;
         border-color: #069e52;
         border-radius: .3em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .edadt{
         position: absolute;
         top: 16em;
         left: 1em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .edadi{
@@ -352,14 +350,14 @@ footer{
         left: 10em;
         border-color: #069e52;
         border-radius: .3em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .especialidadt{
         position: absolute;
         top: 19em;
         left: 1em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .especialidadi{
@@ -368,16 +366,15 @@ footer{
         left: 10em;
         border-color: #069e52;
         background: white;
-        color: #808080;
         border-radius: .3em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .descripciont{
         position: absolute;
         top: 22em;
         left: 1em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .descripcioni{
@@ -386,14 +383,14 @@ footer{
         left: 10em;
         border-color: #069e52;
         border-radius: .3em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .insertat{
         position: absolute;
         top:25em;
         left: 1em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .insertai{
@@ -401,16 +398,15 @@ footer{
         top:27em;
         left: 1em;
         border-color: #069e52;
-        color: #808080;
         border-radius: .3em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .hobbiest{
         position: absolute;
         top:30em;
         left: 1em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .hobbiesi{
@@ -418,9 +414,8 @@ footer{
         top:32em;
         left: 6em;
         border-color: #069e52;
-        color: #808080;
         border-radius: .3em;
-        color: #808080;
+        color: #ffffff;
     }
     
     .enviar{
@@ -429,7 +424,7 @@ footer{
         left: 9em;
         border-color: #069e52;
         background: white;
-        color: #808080;
+        color: black;
         border-radius: .3em;
     }
     
